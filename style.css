@@ -60,6 +60,7 @@ ol.carousel-indicators li {
     color: #fff;
     padding: 9px 25px;
     text-transform: uppercase;
+    border: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -105,7 +106,7 @@ ol.carousel-indicators li {
     position: relative;
 }
 
-.category h4::before {
+.category h4::before, .contact h4::before {
     content: '';
     width: 85px;
     height: 10px;
@@ -148,4 +149,13 @@ ol.carousel-indicators li {
 
 .cat-img img {
     max-width: 600px;
+}
+
+.contact {
+    margin-bottom: 130px;
+}
+
+.contact h4 {
+    margin-bottom: 100px;
+    position: relative;
 }
